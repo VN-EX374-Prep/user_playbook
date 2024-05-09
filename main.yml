@@ -1,6 +1,6 @@
 ---
 - name: creating users
-  hosts: all
+  hosts: testing
   become: yes
   collections:
     - rhel.user
