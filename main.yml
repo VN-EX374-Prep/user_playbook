@@ -1,3 +1,8 @@
 ---
-- name: Creating users
-  hosts: testing
+- name: creating users
+  hosts: all
+  become: yes
+  collections:
+    - rhel.user
+  roles:
+    - rhel.user.newuser
