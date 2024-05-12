@@ -1,8 +1,0 @@
----
-- name: creating the user
-  hosts: testing
-  become: yes
-  collections:
-    - rhel.user
-  roles:
-    - rhel.user.newuser
