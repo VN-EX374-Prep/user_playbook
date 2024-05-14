@@ -1,0 +1,8 @@
+---
+- name: create users with collection & roles
+  hosts: testing
+  become: yes
+  collections:
+    - rhel.user
+  roles:
+    - rhel.user.newuser
