@@ -1,8 +1,0 @@
----
-- name: collect the collections and roles for user creation
-  hosts: testing
-  become: yes
-  collections:
-    - rhel.user
-  roles:
-    - rhel.user.newuser
