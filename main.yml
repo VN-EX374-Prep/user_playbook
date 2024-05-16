@@ -3,6 +3,6 @@
   hosts: testing
   become: yes
   collections:
-    - name: rhel.user
+    name: rhel.user
   roles:
-    - name: rhel.user.newuser
+    name: rhel.user.newuser
