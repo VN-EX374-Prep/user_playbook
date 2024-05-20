@@ -1,5 +1,5 @@
 ---
-- name: create users with collection & roles
+- name: create users with collections and roles
   hosts: testing
   become: yes
   collections:
